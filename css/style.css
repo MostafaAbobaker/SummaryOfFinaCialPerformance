@@ -1,0 +1,56 @@
+body {
+  background-color: #f3f3f3;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  position: fixed;
+  height: 47.5px;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 999;
+}
+
+.FinancialPerformance {
+  padding-top: 47.5px;
+}
+.FinancialPerformance table {
+  border: 2px solid #666;
+  background-color: #fff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  overflow: hidden;
+}
+.FinancialPerformance table th, .FinancialPerformance table td {
+  padding: 3px !important;
+}
+.FinancialPerformance table thead tr tr {
+  font-weight: bold;
+}
+.FinancialPerformance table thead tr:nth-child(odd) {
+  background-color: #d9edf7;
+}
+.FinancialPerformance table thead tr:first-child th {
+  font-size: 32px;
+  color: #0070C0;
+}
+.FinancialPerformance table thead tr:first-child th .info {
+  font-size: 1.5rem;
+}
+.FinancialPerformance table thead tr:last-child th {
+  border-color: #666;
+}
+.FinancialPerformance table tbody tr:first-child td {
+  font-weight: bold;
+}
+.FinancialPerformance table tbody tr:nth-child(even) td {
+  background-color: #f5f5f5;
+}
+.FinancialPerformance table tfoot tr:first-child td {
+  border-color: #666;
+  border-width: 2px;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=style.css.map */
